@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I'm Lisa, a former rabbit psychologist, now making a go as a coder. As a person, I'm "just okay." I'm allergic to rabbits. I'm going to make an app. I don't know what it will be, but I'm sure it will be great and will be more productive than helping depressed and hopeless rabbits.
 
-Things you may want to cover:
+My app will:
 
-* Ruby version
+* Have stuff.
 
-* System dependencies
+* Do stuff.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Get me to pass this course.
