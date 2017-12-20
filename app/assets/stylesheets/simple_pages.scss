@@ -6,5 +6,29 @@ h1 {
 	font-family: Rockwell, Palatino, Cambria, serif;
 	font-size: 3em;
 	color: #663399;
-	text-align: left;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+.navbar {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.nav-item {
+	color: #663399;
+	font-size: 1em;
+	background-color: #7FFFD4;
+}
+
+.footer {
+	text-align: right;
+	background-color: #7FFFD4;
+}
+
+.bike-image {
+	margin: 0 auto;
 }
