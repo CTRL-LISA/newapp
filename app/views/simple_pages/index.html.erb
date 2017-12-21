@@ -1,8 +1,30 @@
+<link href="https://fonts.googleapis.com/css?family=Caesar+Dressing" rel="stylesheet">
+
 <h1>Welcome to the Roman Numeral Converter</h1>
 
-<%= image_tag("racebike.jpg", class: "img-responsive bike-image") %>
+<%= image_tag("hadrian.jpg", class: "img-responsive hadrian-image") %>
+<div class="heading">
+	<h2>I am Hadrian, the great Roman emperor.</h2>
+</div>
 
-<h2>I am Hadrian, the great Emperor of Rome.</h2>
-<p>I am known for building Hadrian's Wall, the Temple of Venus and Roma, and now, this web app. Many of you plebs have lost the great wisdom of the Roman times. I was aggrieved to learn that the so-called "millenials" do not even know how to do the simple conversion to understand Roman numerals, aka the best type of numeral. This is where modern education has left us.</p>
-<p>In any case, fear not. I, your fearless and intelligent leader, am here to help. Simply enter the your Roman numeral in the field below, and I will do convert it into your modern-day integer numeral.</p>
-<p>Go ahead, give it a try.</p>
+<div class="intro-container">
+	<div class="table-intro">
+		<p>I am known for building Hadrian's Wall, the Temple of Venus and Roma, and now, this web app. Many of you plebs have lost the great wisdom of the Roman Empire. I was aggrieved to learn that the so-called "millenials" do not even know how to do the simple conversion to understand Roman numerals, aka the best type of numeral. This is where modern education has left us.</p>
+		<p>In any case, fear not. I, your fearless and intelligent leader, am here to help. Simply enter the your Roman numeral in the field below, and I will do convert it into your modern-day integer numeral.</p>
+		<p>Go ahead, give it a try.</p>
+	</div>
+</div>
+
+<br>
+
+<div class='table'>
+    <div class='cell'>
+        <form id="enter-number" action="index.html">
+            <label>Enter the Roman numeral:</label>
+            <input type="text" name="roman" size="20" maxlength="20" />
+            <br />
+            
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+</div>
