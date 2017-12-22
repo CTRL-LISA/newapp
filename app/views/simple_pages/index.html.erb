@@ -1,30 +1,68 @@
-<link href="https://fonts.googleapis.com/css?family=Caesar+Dressing" rel="stylesheet">
 
-<h1>Welcome to the Roman Numeral Converter</h1>
 
-<%= image_tag("hadrian.jpg", class: "img-responsive hadrian-image") %>
-<div class="heading">
-	<h2>I am Hadrian, the great Roman emperor.</h2>
-</div>
+<h1>Welcome to Veneto Bird Tours</h1>
+
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <%= image_tag("venice.jpg") %>
+      <div class="carousel-caption">
+          <h3>Venice</h3>
+          <p>Often overlooked, Venice offers a unique and easy-to-tick birds.</p>
+          
+      </div>
+    </div>
+    <div class="item">
+      <%= image_tag("podelta.jpg") %>
+      <div class="carousel-caption">
+          <h3>Po Delta</h3>
+          <p>The Po Delta has the best wetlands in Northern Italy.</p>
+         
+      </div>
+    </div>
+    <div class="item">
+      <%= image_tag("dolomites.jpg") %>
+      <div class="carousel-caption">
+          <h3>The Dolomites</h3>
+          <p>Weather permitting, the Dolomite Mountains offer an extensive range of alpine species.</p>
+        
+      </div>
+    
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><!-- end carousel-example-generic -->
+
+
+  </div> <!-- end container-fluid index -->
+
+
+
+
+
+
+
+
 
 <div class="intro-container">
 	<div class="table-intro">
-		<p>I am known for building Hadrian's Wall, the Temple of Venus and Roma, and now, this web app. Many of you plebs have lost the great wisdom of the Roman Empire. I was aggrieved to learn that the so-called "millenials" do not even know how to understand Roman numerals, aka the best type of numeral. This is where modern education has left us.</p>
-		<p>In any case, fear not. I, your fearless and intelligent leader, am here to help. Simply enter the your Roman numeral in the field below, and I will convert it into your modern-day integer numeral.</p>
-		<p>Go ahead, give it a try.</p>
+		<p>Veneto has some of the best birding in Italy.</p>
 	</div>
-</div>
-
-<br>
-
-<div class='table'>
-    <div class='cell'>
-        <form id="enter-number" action="index.html">
-            <label>Enter the Roman numeral:</label>
-            <input type="text" name="roman" size="20" maxlength="20" />
-            <br />
-            
-            <input type="submit" value="Submit" />
-        </form>
-    </div>
 </div>
