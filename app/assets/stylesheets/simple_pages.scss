@@ -5,7 +5,6 @@
 body {
 	color: white;
 	background-color: black;
-	padding-top: 50px;
 	margin-bottom: 100px;
 }
 
@@ -41,6 +40,7 @@ p {
 }
 
 .nav-item {
+	background-color: black;
 	color: #FFEBCD;
 	font-size: 1em;
 	text-transform: uppercase;
@@ -49,12 +49,9 @@ p {
 .footer {
 	text-align: right;
 	background-color: #FFEBCD;
-	color: white;
+	color: black;
 }
 
-.hadrian-image {
-	margin: 0 auto;
-}
 
 label {
     font-weight: bold;
@@ -85,10 +82,10 @@ label {
 
 form {
     display: inline-block;
-    border: 3px solid purple;
+    border: 3px solid grey;
     width: 450px;
     padding: 50px 0;
-    background: white;
+    background: black;
 }
 
 input {
