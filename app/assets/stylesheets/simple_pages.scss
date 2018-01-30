@@ -130,10 +130,12 @@ input {
 }
 
 .container-fluid {
+	display: block;
 	text-align: center;
+	margin: 0 auto;
 }
 
-
-.product.image_url {
+.row {
 	text-align: center;
+	margin: 0 auto;
 }
